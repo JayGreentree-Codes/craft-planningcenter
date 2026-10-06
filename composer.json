@@ -6,8 +6,8 @@
   "license": "MIT",
   "authors": [
     {
-      "name": "Developer",
-      "homepage": "https://localhost"
+      "name": "JayGreentree.codes",
+      "homepage": "https://JayGreentree.codes"
     }
   ],
   "require": {
@@ -15,15 +15,15 @@
   },
   "autoload": {
     "psr-4": {
-      "jaygreentree-codes\\planningcenter\\": "src/"
+      "jaygreentreecodes\\planningcenter\\": "src/"
     }
   },
   "extra": {
     "handle": "planning-center",
-    "name": "Planning Center Integration",
-    "developer": "Custom Development",
+    "name": "Planning Center",
+    "developer": "JayGreentree.codes",
     "documentationUrl": "",
-    "class": "jaygreentree-codes\\planningcenter\\Plugin",
+    "class": "jaygreentreecodes\\planningcenter\\Plugin",
     "settingsTemplate": "planning-center/settings"
   }
 }

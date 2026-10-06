@@ -1,13 +1,40 @@
 <?php
-namespace jaygreentree-codes\planningcenter\services;
+namespace jaygreentreecodes\planningcenter\services;
 
 use Craft;
 use craft\base\Component;
-use jaygreentree-codes\planningcenter\Plugin;
+use jaygreentreecodes\planningcenter\Plugin;
 use GuzzleHttp\Exception\GuzzleException;
 
 class PlanningCenterService extends Component
 {
+    /**
+     * Fetch upcoming events from Planning Center Calendar
+     * Example: Plugin::$plugin->api->getCalendarEvents(['per_page' => 10])
+     */
+    public function getCalendarEvents(array $query = []): array
+    {
+        return $this->get('calendar/v2/events', $query);
+    }
+
+    /**
+     * Fetch people profiles from Planning Center People
+     * Example: Plugin::$plugin->api->getPeople(['per_page' => 10])
+     */
+    public function getPeople(array $query = []): array
+    {
+        return $this->get('people/v2/people', $query);
+    }
+
+    /**
+     * Fetch upcoming plans for a specific service type
+     * Example: Plugin::$plugin->api->getServicePlans('123456', ['per_page' => 5])
+     */
+    public function getServicePlans(string $serviceTypeId, array $query = []): array
+    {
+        return $this->get("services/v2/service_types/{$serviceTypeId}/plans", $query);
+    }
+
     /**
      * Fetch endpoints from the Planning Center API
      * Example: Plugin::$plugin->api->get('services/v2/service_types')

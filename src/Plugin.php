@@ -1,10 +1,10 @@
 <?php
-namespace jaygreentree-codes\planningcenter;
+namespace jaygreentreecodes\planningcenter;
 
 use Craft;
 use craft\base\Plugin as BasePlugin;
-use jaygreentree-codes\planningcenter\models\Settings;
-use jaygreentree-codes\planningcenter\services\PlanningCenterService;
+use jaygreentreecodes\planningcenter\models\Settings;
+use jaygreentreecodes\planningcenter\services\PlanningCenterService;
 
 /**
  * Planning Center plugin class.
