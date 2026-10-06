@@ -1,5 +1,5 @@
 {
-  "name": "modules/planning-center",
+  "name": "jaygreentree-codes/planning-center",
   "description": "Integrate Planning Center API features into Craft CMS 5.x",
   "type": "craft-plugin",
   "keywords": ["craft", "cms", "craftcms", "craft-plugin", "planning center"],
