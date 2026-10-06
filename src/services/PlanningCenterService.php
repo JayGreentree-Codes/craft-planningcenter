@@ -1,5 +1,5 @@
 <?php
-namespace modules\planningcenter\services;
+namespace jaygreentree-codes\planningcenter\services;
 
 use Craft;
 use craft\base\Component;
