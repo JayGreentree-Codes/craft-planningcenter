@@ -1,0 +1,29 @@
+{
+  "name": "modules/planning-center",
+  "description": "Integrate Planning Center API features into Craft CMS 5.x",
+  "type": "craft-plugin",
+  "keywords": ["craft", "cms", "craftcms", "craft-plugin", "planning center"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Developer",
+      "homepage": "https://localhost"
+    }
+  ],
+  "require": {
+    "craftcms/cms": "^5.11.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "modules\\planningcenter\\": "src/"
+    }
+  },
+  "extra": {
+    "handle": "planning-center",
+    "name": "Planning Center Integration",
+    "developer": "Custom Development",
+    "documentationUrl": "",
+    "class": "modules\\planningcenter\\Plugin",
+    "settingsTemplate": "planning-center/settings"
+  }
+}

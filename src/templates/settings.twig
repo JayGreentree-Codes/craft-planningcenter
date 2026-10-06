@@ -1,0 +1,21 @@
+{% import "_includes/forms" as forms %}
+
+{{ forms.textField({
+    label: 'Application ID',
+    id: 'appId',
+    name: 'appId',
+    value: settings.appId,
+    instructions: 'Enter your Planning Center Personal Access Token Application ID (supports ENV variables).',
+    errors: settings.getErrors('appId'),
+    required: true
+}) }}
+
+{{ forms.passwordField({
+    label: 'Secret',
+    id: 'secret',
+    name: 'secret',
+    value: settings.secret,
+    instructions: 'Enter your Planning Center Personal Access Token Secret (supports ENV variables).',
+    errors: settings.getErrors('secret'),
+    required: true
+}) }}
