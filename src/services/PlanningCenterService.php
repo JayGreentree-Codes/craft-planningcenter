@@ -1,9 +1,9 @@
 <?php
-namespace modules\planningcenter\services;
+namespace jaygreentree-codes\planningcenter\services;
 
 use Craft;
 use craft\base\Component;
-use modules\planningcenter\Plugin;
+use jaygreentree-codes\planningcenter\Plugin;
 use GuzzleHttp\Exception\GuzzleException;
 
 class PlanningCenterService extends Component

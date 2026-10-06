@@ -1,5 +1,5 @@
 <?php
-namespace modules\planningcenter\models;
+namespace jaygreentree-codes\planningcenter\models;
 
 use craft\base\Model;
 

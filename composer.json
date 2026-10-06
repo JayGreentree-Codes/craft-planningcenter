@@ -15,7 +15,7 @@
   },
   "autoload": {
     "psr-4": {
-      "modules\\planningcenter\\": "src/"
+      "jaygreentree-codes\\planningcenter\\": "src/"
     }
   },
   "extra": {
@@ -23,7 +23,7 @@
     "name": "Planning Center Integration",
     "developer": "Custom Development",
     "documentationUrl": "",
-    "class": "modules\\planningcenter\\Plugin",
+    "class": "jaygreentree-codes\\planningcenter\\Plugin",
     "settingsTemplate": "planning-center/settings"
   }
 }
