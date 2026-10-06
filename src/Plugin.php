@@ -1,5 +1,5 @@
 <?php
-namespace modules\planningcenter;
+namespace jaygreentree-codes\planningcenter;
 
 use Craft;
 use craft\base\Plugin as BasePlugin;
